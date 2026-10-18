@@ -39,10 +39,10 @@ A página apresenta cinco sites favoritos, com seus respectivos nomes, imagens e
 
 ## Estrutura do projeto
 
-Pedro_Ag12_DS_I
-├── index.html
-├── README.md
-└── capturas/
+ Pedro_Ag12_DS_I/
+ ├── index.html
+ ├── README.md
+ └── capturas/
     ├── captura-da-página-web.png
     └── captura-do-código.png
 
