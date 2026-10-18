@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configura a codificação de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Adapta a página a diferentes tamanhos de tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título exibido na aba do navegador -->
+    <title>Meus sites favoritos</title>
+
+    <!-- Estilos visuais da página -->
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background-color: #4b4b4b;
+            color: #E0E3E8;
+            text-align: center;
+            margin: 0;
+            padding: 30px 20px;
+        }
+
+        h1 {
+            color: #580b0b;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .introducao {
+            color: #000000;
+            font-size: 19px;
+            margin-bottom: 35px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .site {
+            background-color: #777777;
+            width: 200px;
+            padding: 22px;
+            border: 1px solid #0c0c0c;
+            border-radius: 8px;
+            box-shadow: 0 5px 12px #0e0e0e9a;
+            transition: transform 0.2s;
+        }
+
+        .site:hover {
+            transform: translateY(-5px);
+        }
+
+        .site h2 {
+            color: #580b0b;
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        .site img {
+            width: 125px;
+            height: 110px;
+            object-fit: contain;
+            margin: 8px 0 15px;
+        }
+
+        .site a {
+            color: #000000;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .site a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        footer {
+            color: #000000;
+            margin-top: 45px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Título principal -->
+    <h1>Meus sites favoritos: Pedro</h1>
+
+    <!-- Pequena apresentação da página -->
+    <p class="introducao">
+        Sites que visito com frequência.
+    </p>
+
+    <!-- Área com os cinco sites favoritos -->
+    <div class="container">
+
+        <!-- YouTube: logo histórico de 2005 a 2006 -->
+        <div class="site">
+            <h2>YouTube</h2>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img
+                    src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Logo_of_YouTube_%282006-2011%29.svg/1280px-Logo_of_YouTube_%282006-2011%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+                    alt="Logo antigo do YouTube">
+            </a>
+            <p>
+                <a href="https://www.youtube.com/" target="_blank">
+                    Acessar site
+                </a>
+            </p>
+        </div>
+
+        <!-- Internet Archive: identidade visual anterior -->
+        <div class="site">
+            <h2>Internet Archive</h2>
+            <a href="https://archive.org/" target="_blank">
+                <img
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Internet_Archive_logo_and_wordmark.svg"
+                    alt="Logo do Internet Archive">
+            </a>
+            <p>
+                <a href="https://archive.org/" target="_blank">
+                    Acessar site
+                </a>
+            </p>
+        </div>
+
+        <!-- Songsterr -->
+        <div class="site">
+            <h2>Songsterr</h2>
+            <a href="https://www.songsterr.com/" target="_blank">
+                <img
+                    src="https://play-lh.googleusercontent.com/a_LT8vLMjLA7uG2sRlzf0Oj2TvzAk63HY3YIUZXll-tBYI6T5ffvffSMW7W5jMXWlhlLqRuXMF46ORZK7BRP_A"
+                    alt="Ícone do Songsterr">
+            </a>
+            <p>
+                <a href="https://www.songsterr.com/" target="_blank">
+                    Acessar site
+                </a>
+            </p>
+        </div>
+
+        <!-- Wikipedia: logo clássico da enciclopédia -->
+        <div class="site">
+            <h2>Wikipedia</h2>
+            <a href="https://www.wikipedia.org/" target="_blank">
+                <img
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia-logo-v2.svg"
+                    alt="Logo da Wikipedia">
+            </a>
+            <p>
+                <a href="https://www.wikipedia.org/" target="_blank">
+                    Acessar site
+                </a>
+            </p>
+        </div>
+
+        <!-- OK.ru: logo anterior de 2015 -->
+        <div class="site">
+            <h2>OK.ru</h2>
+            <a href="https://ok.ru/" target="_blank">
+                <img
+                    src="https://cdn-1.webcatalog.io/catalog/okru/okru-icon-filled-256.png?v=1779669237046"
+                    alt="Logo antigo da rede social OK">
+            </a>
+            <p>
+                <a href="https://ok.ru/" target="_blank">
+                    Acessar site
+                </a>
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Rodapé da página -->
+    <footer>
+        Página desenvolvida como atividade da Agenda 12 - Desenvolvimento de Sistemas I.
+    </footer>
+</body>
+</html>
